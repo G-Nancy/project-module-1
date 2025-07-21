@@ -1,0 +1,354 @@
+absl-py
+accelerate
+adagio
+affine
+aiohappyeyeballs
+aiohttp
+aiohttp-cors
+aiosignal
+albucore
+albumentations
+alembic
+annotated-types
+antlr4-python3-runtime
+appdirs
+astunparse
+attrs
+autogluon
+beartype
+beautifulsoup4
+black
+blis
+bmipy
+boto3
+botocore
+branca
+cachetools
+cads-api-client
+Cartopy
+catalogue
+catboost
+causal-learn==0.1.4.3 # Kept pinned due to Python version sensitivity
+cdsapi
+certifi # Removed version for flexibility
+charset-normalizer
+click
+click-plugins
+cligj
+cloudpathlib
+cloudpickle
+colorama # Removed version for flexibility
+colorful
+colorlog
+colour
+comm # Removed version for flexibility
+confection
+contourpy # Removed version for flexibility
+coreforecast
+cycler # Removed version for flexibility
+cymem
+Cython
+cytoolz # Removed version for flexibility
+dask
+datasets
+dcor
+debugpy # Removed version for flexibility
+decorator # Removed version for flexibility
+defusedxml
+dill
+distlib
+distributed # Removed version for flexibility
+DoubleML
+dtaidistance
+einops
+EMD-signal # Removed version for flexibility
+eofs
+esda
+evaluate
+executing # Removed version for flexibility
+fastai
+fastcore
+fastdownload
+fastprogress
+fasttransform
+fdasrsf # Relaxed, might conflict with pygam/scipy
+filelock
+findiff
+FLAML
+flatbuffers
+folium
+fonttools # Removed version for flexibility
+frozenlist
+fs
+fsspec
+fugue
+future
+galois
+gast
+gdown
+generalized-additive-models
+geographiclib
+geopandas
+geopy
+gluonts
+google-api-core
+google-auth
+google-pasta
+googleapis-common-protos
+graphviz
+greenlet
+grpcio
+h2o
+h5netcdf
+h5py
+hdbscan
+HeapDict # Removed version for flexibility
+hf-xet
+huggingface-hub
+hyperopt
+idna
+imageio
+immutabledict
+importlib_metadata
+ipykernel # Removed version for flexibility, assuming installed via conda for Jupyter
+ipython # Removed version for flexibility
+jedi # Removed version for flexibility
+Jinja2 # Removed version for flexibility
+jmespath
+joblib # Removed version for flexibility
+jsonschema
+jsonschema-specifications
+jupyter_client # Removed version for flexibility
+jupyter_core # Removed version for flexibility
+keras==3.4.1 # Pinned as it's part of the TF ecosystem
+kiwisolver # Removed version for flexibility
+langcodes
+language_data
+lazy_loader
+libclang
+libpysal
+lightgbm
+lightning
+lightning-utilities
+libclang
+llvmlite # Removed version for flexibility
+lmdb # Removed version for flexibility
+locket # Removed version for flexibility
+lxml
+lz4 # Removed version for flexibility
+Mako
+marisa-trie
+Markdown
+markdown-it-py
+MarkupSafe
+matplotlib # Removed version for flexibility
+matplotlib-inline # Removed version for flexibility
+mdurl
+memory-profiler
+ml-dtypes
+mlforecast
+model-index
+momentchi2
+mpmath
+msgpack # Removed version for flexibility
+multidict
+multimethod
+multiprocess
+multiurl
+munkres
+murmurhash
+mypy_extensions
+namex
+narwhals
+nest-asyncio # Removed version for flexibility
+netCDF4
+networkx
+nlpaug
+nltk
+numba # Removed version for flexibility
+numpy # Relaxed, might be pulled by others
+nvidia-cublas-cu12
+nvidia-cuda-cupti-cu12
+nvidia-cuda-nvrtc-cu12
+nvidia-cuda-runtime-cu12
+nvidia-cudnn-cu12
+nvidia-cufft-cu12
+nvidia-cufile-cu12
+nvidia-curand-cu12
+nvidia-cusolver-cu12
+nvidia-cusparse-cu12
+nvidia-cusparselt-cu12
+nvidia-ml-py3
+nvidia-nccl-cu12
+nvidia-nvjitlink-cu12
+nvidia-nvtx-cu12
+omegaconf
+opencensus
+opencensus-context
+opencv-python-headless
+opendatalab
+openmim
+openxlab
+opt-einsum
+optree
+optuna
+ordered-set
+orjson
+# ortools # Removed entirely due to conflict
+overrides
+OWSLib
+packaging # Removed version for flexibility
+pandas # Relaxed, might be pulled by others
+parso # Removed version for flexibility
+partd # Removed version for flexibility
+pathos # Removed version for flexibility
+pathspec
+patsy # Removed version for flexibility
+pdf2image
+pexpect # Removed version for flexibility
+pillow # Removed version for flexibility
+platformdirs # Removed version for flexibility
+plotly
+plum-dispatch
+ply # Removed version for flexibility
+pox # Removed version for flexibility
+ppft # Removed version for flexibility
+preshed
+progressbar2
+prometheus_client
+prompt-toolkit # Removed version for flexibility
+propcache
+proto-plus
+protobuf # Relaxed, will try to find compatible version with TF/TensorBoard
+psutil # Removed version for flexibility
+ptyprocess # Removed version for flexibility
+pure-eval # Removed version for flexibility
+py-spy
+py4j
+pyarrow # Relaxed, will try to find compatible version
+pyasn1
+pyasn1_modules
+pycparser
+pycryptodome
+pycwt
+pydantic
+pydantic_core
+pydot
+#pyemd
+pygam # Relaxed, might conflict with fdasrsf/scipy
+Pygments # Removed version for flexibility
+pymannkendall
+pyogrio
+pyparsing # Removed version for flexibility
+pyproj
+PyQt5
+PyQt5-sip # Removed version for flexibility
+pyshp
+PySocks # Removed version for flexibility
+pytesseract
+python-dateutil # Removed version for flexibility
+python-utils
+pytorch-lightning
+pytorch-metric-learning
+pytz # Removed version for flexibility
+PyWavelets
+PyYAML # Removed version for flexibility
+pyzmq # Removed version for flexibility
+rasterio
+rasterstats
+ray
+rdata
+referencing
+regex
+requests
+rich
+rioxarray
+rpds-py
+rsa
+s3transfer
+safetensors
+scikit-datasets
+scikit-fda
+scikit-image
+scikit-learn # Removed version for flexibility
+scipy # Removed version for flexibility, allowing pip to try to resolve
+seaborn
+sentencepiece
+seqeval
+shap
+shapely
+shapiq
+shellingham
+simplejson
+simsimd
+sip # Removed version for flexibility
+six # Removed version for flexibility
+slicer
+smart_open
+snuggs
+soilgrids
+sortedcontainers # Removed version for flexibility
+soupsieve
+spacy
+spacy-legacy
+spacy-loggers
+sparse # Removed version for flexibility
+sparse-transform
+SQLAlchemy
+srsly
+stack-data # Removed version for flexibility
+statsforecast
+statsmodels # Removed version for flexibility
+stringzilla
+sympy # Relaxed, will try to find compatible version
+tabpfn
+tabpfn-extensions
+tabulate
+tblib # Removed version for flexibility
+tensorboard
+tensorboard-data-server
+tensorboardX
+tensorflow
+tensorflow-io-gcs-filesystem
+termcolor
+text-unidecode
+thinc
+threadpoolctl # Removed version for flexibility
+tifffile
+tigramite
+timm
+tokenizers
+tomli # Removed version for flexibility
+toolz
+torch # Relaxed, will try to find compatible version
+torch-geometric
+torchmetrics
+torchvision # Relaxed, will try to find compatible version
+tornado # Removed version for flexibility
+tqdm
+traitlets # Removed version for flexibility
+transformers
+triad
+triton
+typer
+typing-inspection
+typing_extensions
+tzdata # Removed version for flexibility
+unzip
+urllib3
+utilsforecast
+virtualenv
+wasabi
+wcwidth # Removed version for flexibility
+weasel
+Werkzeug
+window_ops
+wrapt
+xarray
+xesmf # Removed version for flexibility
+xgboost
+xxhash
+xyzservices
+yarl
+zict # Removed version for flexibility
+zipp
